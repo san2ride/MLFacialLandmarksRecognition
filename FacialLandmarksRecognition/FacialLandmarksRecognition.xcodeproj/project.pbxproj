@@ -11,6 +11,7 @@
 		F72C26992B97E6640094F68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72C26982B97E6640094F68B /* Assets.xcassets */; };
 		F72C269C2B97E6640094F68B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72C269B2B97E6640094F68B /* Preview Assets.xcassets */; };
 		F72C26A32B97E6930094F68B /* FacialLandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C26A22B97E6930094F68B /* FacialLandmarksView.swift */; };
+		F72C26A52B97E7650094F68B /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C26A42B97E7650094F68B /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F72C26982B97E6640094F68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72C269B2B97E6640094F68B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F72C26A22B97E6930094F68B /* FacialLandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialLandmarksView.swift; sourceTree = "<group>"; };
+		F72C26A42B97E7650094F68B /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				F72C26942B97E6610094F68B /* FacialLandmarksRecognitionApp.swift */,
 				F72C26982B97E6640094F68B /* Assets.xcassets */,
 				F72C269A2B97E6640094F68B /* Preview Content */,
+				F72C26A42B97E7650094F68B /* UIImage+Extensions.swift */,
 			);
 			path = FacialLandmarksRecognition;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72C26A52B97E7650094F68B /* UIImage+Extensions.swift in Sources */,
 				F72C26A32B97E6930094F68B /* FacialLandmarksView.swift in Sources */,
 				F72C26952B97E6610094F68B /* FacialLandmarksRecognitionApp.swift in Sources */,
 			);
