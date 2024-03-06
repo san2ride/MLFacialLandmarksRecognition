@@ -77,13 +77,9 @@ struct FacialLandmarksView: View {
                 .frame(width: 100)
                 .background(Color.gray)
                 .cornerRadius(10)
-            
-                
-                
             }.padding()
             
             Button("Classify") {
-                
                 // classify the image here
                 self.detectFacialLandmarks { observations in
                     if let observations = observations {
@@ -93,7 +89,6 @@ struct FacialLandmarksView: View {
                         }
                     }
                 }
-                
             }.padding()
             .foregroundColor(Color.white)
             .background(Color.green)

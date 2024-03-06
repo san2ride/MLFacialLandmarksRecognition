@@ -11,7 +11,7 @@ import SwiftUI
 struct FacialLandmarksRecognitionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FacialLandmarksView()
         }
     }
 }
